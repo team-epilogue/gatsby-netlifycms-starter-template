@@ -4,6 +4,7 @@ import { graphql } from 'gatsby'
 
 import Layout from '../components/Layout'
 import BlogRoll from '../components/BlogRoll'
+import Site from "../util/site.json";
 
 export const IndexPageTemplate = ({  
   title,  
@@ -31,7 +32,7 @@ export const IndexPageTemplate = ({
             marginTop: '1em'
           }}
         >
-          {title}
+          {Site.meta.title}
         </h1>
         <h3
           className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
@@ -41,7 +42,7 @@ export const IndexPageTemplate = ({
             padding: '0.25em',
           }}
         >
-          {subheading}
+          {Site.meta.description}
         </h3>
 
       </div>
