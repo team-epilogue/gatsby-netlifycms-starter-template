@@ -4,7 +4,7 @@ import { graphql } from 'gatsby'
 
 import Layout from '../components/Layout'
 import BlogRoll from '../components/BlogRoll'
-import Site from "../util/site.json";
+import Site from "../utils/site.json";
 
 export const IndexPageTemplate = ({  
   title,  
