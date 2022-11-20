@@ -9,7 +9,7 @@ author: githubId
 featured: false
 featuredpost: false
 title: 마크다운 기본 사용법
-description: 마크다운 기본 사용법입니다. 
+description: 마크다운에 대한 기본 사용법입니다. 이 글을 참고해 게시글을 포스팅해보세요! 
 category: category2
 tags: [hello]
 date: 2022-11-13T10:57:35.157Z
